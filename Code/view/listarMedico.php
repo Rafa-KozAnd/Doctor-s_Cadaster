@@ -5,6 +5,8 @@
     }
     
     require_once("./controller/medico.php");
+
+    require_once("styleLink.html");
 ?>
 
 <!DOCTYPE HTML>
@@ -14,16 +16,18 @@
         <title> Listagem de Médicos </title>
 </head>
 <body>
-<table>
-        <tr>
-            <th>CRM</th>
-            <th>Estado</th>
-            <th>Nome</th>
-            <th>Telefone</th>
-            <th>Salário</th>
-            <th>Especialidades</th>
-            <th>Alterar</th>
-        </tr>
+    <fieldset class="input">
+        <table id="table">
+            <tr>
+                <th>CRM</th>
+                <th>Estado</th>
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th>Salário</th>
+                <th>Especialidades</th>
+                <th>Alterar</th>
+            </tr>
+
     <?php   
                                        
     $medicos = listarMedicos();
@@ -45,5 +49,6 @@
     }
     
     ?>
+    </fieldset>
     </body>
 </html>

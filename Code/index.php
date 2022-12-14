@@ -23,8 +23,8 @@ if (!isset($_SESSION["usuario"])) {
     <br><br>
 
     <?php
-        
         require_once("./menu.php");
+        echo '<br>';
     ?>
         
     <?php

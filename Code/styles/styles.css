@@ -1,0 +1,50 @@
+body {
+    background-color: #e6ffff;
+    text-align: center;
+    color: #004d4d;
+    margin-top: 10%;
+}
+
+input {
+    border-radius: 5px;
+}
+
+fieldset {
+    display: inline-block;
+    border: 0;
+}
+
+fieldset .input {
+    float: left;
+    margin-right: 1em;
+}
+
+.login input [type = "text"] {
+    padding: 0.2em;
+    display: block;
+}
+
+.login label {
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+.input input [type = "text"] {
+    padding: 0.2em;
+    width: 10%;
+    float: left;
+    display: block;
+}
+
+.input label {
+    margin-bottom: 0.2em;
+    display: inline-block;
+}
+
+table {
+    justify-content: center;
+}
+
+td, th {
+    border: 2px solid;
+}
