@@ -9,7 +9,7 @@
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Rafa-KozAnd/Doctor-s_Cadaster">
 </p>
 
-- Project Name: 'Maratona Explorer';
+- Project Name: 'Doctor-s_Cadaster';
 - Languages: 'JavaScript';
 - Softwares/Work Tools: 'V.S. Code';
 - Resume: (About_the_Repository);
